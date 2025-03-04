@@ -164,7 +164,7 @@ static boolean CacheSFX(sfxinfo_t *sfxinfo)
         kSound8bitMono,
         samplerate,
         length,
-        1
+        0
     );
 
     driver_data_t *driver_data = Z_Malloc(sizeof(driver_data_t), PU_STATIC, 0);
